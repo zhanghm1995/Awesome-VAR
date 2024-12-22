@@ -1,10 +1,12 @@
-# Awesome-VAR-Resources
-A curated list of papers and resources focused on Visual AutoRegressive Modeling, makes GPT-style AR models surpass diffusion transformers in image generation. If you have any additions or suggestions, feel free to contribute. Additional resources like blog posts, videos, etc. are also welcome.
+# Awesome VAR Resources
+A curated list of papers and resources focused on **Visual AutoRegressive Modeling**, makes GPT-style AR models surpass diffusion transformers in image generation. If you have any additions or suggestions, feel free to contribute. Additional resources like blog posts, videos, etc. are also welcome.
 
 ## Table of contents
 - [2D Generation](#2D-Generation)
 - [3D Generation](#3D-Generation)
 - [3D Perception](#3D-Perception)
+
+<br>
 
 ## 2D Generation
 
