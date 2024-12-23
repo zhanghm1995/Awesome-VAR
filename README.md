@@ -48,6 +48,16 @@ Visual Autoregressive (VAR) has emerged as a promising approach in image generat
 
 [![arXiv](https://img.shields.io/badge/arXiv-2411.17178-b31b1b.svg)](https://arxiv.org/pdf/2411.17178)
 
+### CAR: Controllable Autoregressive Modeling for Visual Generation
+**Authors**: Ziyu Yao, Jialin Li, Yifeng Zhou, Yong Liu, Xi Jiang, Chengjie Wang, Feng Zheng, Yuexian Zou, Lei Li
+<details span>
+<summary><b>Abstract</b></summary>
+Controllable generation, which enables fine-grained control over generated outputs, has emerged as a critical focus in visual generative models. Currently, there are two primary technical approaches in visual generation: diffusion models and autoregressive models. Diffusion models, as exemplified by ControlNet and T2I-Adapter, offer advanced control mechanisms, whereas autoregressive models, despite showcasing impressive generative quality and scalability, remain underexplored in terms of controllability and flexibility. In this study, we introduce Controllable AutoRegressive Modeling (CAR), a novel, plug-and-play framework that integrates conditional control into multi-scale latent variable modeling, enabling efficient control generation within a pre-trained visual autoregressive model. CAR progressively refines and captures control representations, which are injected into each autoregressive step of the pre-trained model to guide the generation process. Our approach demonstrates excellent controllability across various types of conditions and delivers higher image quality compared to previous methods. Additionally, CAR achieves robust generalization with significantly fewer training resources compared to those required for pre-training the model. To the best of our knowledge, we are the first to propose a control framework for pre-trained autoregressive visual generation models.
+</details>
+
+[![arXiv](https://img.shields.io/badge/arXiv-2410.04671-b31b1b.svg)](https://arxiv.org/pdf/2410.04671) [![WEB Page](https://img.shields.io/badge/Github-Page-159957.svg)](https://github.com/MiracleDance/CAR)
+
+
 ### STAR: Scale-wise Text-to-image generation via Auto-Regressive representations
 **Authors**: Xiaoxiao Ma, Mohan Zhou, Tao Liang, Yalong Bai, Tiejun Zhao, Huaian Chen, Yi Jin
 <details span>
@@ -66,14 +76,6 @@ Conditional visual generation has witnessed remarkable progress with the advent 
 
 [![arXiv](https://img.shields.io/badge/arXiv-2406.09750-b31b1b.svg)](https://arxiv.org/pdf/2406.09750) [![WEB Page](https://img.shields.io/badge/Github-Page-159957.svg)](https://github.com/lxa9867/ControlVAR)
 
-### CAR: Controllable Autoregressive Modeling for Visual Generation
-**Authors**: Ziyu Yao, Jialin Li, Yifeng Zhou, Yong Liu, Xi Jiang, Chengjie Wang, Feng Zheng, Yuexian Zou, Lei Li
-<details span>
-<summary><b>Abstract</b></summary>
-Controllable generation, which enables fine-grained control over generated outputs, has emerged as a critical focus in visual generative models. Currently, there are two primary technical approaches in visual generation: diffusion models and autoregressive models. Diffusion models, as exemplified by ControlNet and T2I-Adapter, offer advanced control mechanisms, whereas autoregressive models, despite showcasing impressive generative quality and scalability, remain underexplored in terms of controllability and flexibility. In this study, we introduce Controllable AutoRegressive Modeling (CAR), a novel, plug-and-play framework that integrates conditional control into multi-scale latent variable modeling, enabling efficient control generation within a pre-trained visual autoregressive model. CAR progressively refines and captures control representations, which are injected into each autoregressive step of the pre-trained model to guide the generation process. Our approach demonstrates excellent controllability across various types of conditions and delivers higher image quality compared to previous methods. Additionally, CAR achieves robust generalization with significantly fewer training resources compared to those required for pre-training the model. To the best of our knowledge, we are the first to propose a control framework for pre-trained autoregressive visual generation models.
-</details>
-
-[![arXiv](https://img.shields.io/badge/arXiv-2410.04671-b31b1b.svg)](https://arxiv.org/pdf/2410.04671) [![WEB Page](https://img.shields.io/badge/Github-Page-159957.svg)](https://github.com/MiracleDance/CAR)
 
 ### [NeurIPS '24] Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction
 **Authors**: Keyu Tian, Yi Jiang, Zehuan Yuan, Bingyue Peng, Liwei Wang
