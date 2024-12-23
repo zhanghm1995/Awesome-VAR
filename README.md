@@ -1,6 +1,8 @@
 # Awesome VAR Resources
 A curated list of papers and resources focused on **Visual AutoRegressive Modeling**, makes GPT-style AR models surpass diffusion transformers in image generation. If you have any additions or suggestions, feel free to contribute. Additional resources like blog posts, videos, etc. are also welcome.
 
+📢: The links to the paper's PDF are provided with the `arXiv` badge. You can also easily obtain the approximate release date of this paper from the badge, and we sort these paper in chronological order. If provided, the links to the project pages are provided with the `Project Page` badge, and the `Github Page` badge indicates the availability of the code.
+
 ## Table of contents
 - [2D Generation](#2D-Generation)
 - [3D Generation](#3D-Generation)
