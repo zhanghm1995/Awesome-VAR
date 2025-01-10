@@ -87,6 +87,17 @@ We present Visual AutoRegressive modeling (VAR), a new generation paradigm that 
 [![arXiv](https://img.shields.io/badge/arXiv-2404.02905-b31b1b.svg)](https://arxiv.org/pdf/2404.02905) [![WEB Page](https://img.shields.io/badge/Github-Page-159957.svg)](https://github.com/FoundationVision/VAR)
 
 
+## Image Restoration
+### Varformer: Adapting VAR’s Generative Prior for Image Restoration
+**Authors**: Siyang Wang, Feng Zhao
+<details span>
+<summary><b>Abstract</b></summary>
+Generative models trained on extensive high-quality datasets effectively capture the structural and statistical properties of clean images, rendering them powerful priors for transforming degraded features into clean ones in image restoration. VAR, a novel image generative paradigm, surpasses diffusion models in generation quality by applying a next-scale prediction approach. It progressively captures both global structures and fine-grained details through the autoregressive process, consistent with the multi-scale restoration principle widely acknowledged in the restoration community. Furthermore, we observe that during the image reconstruction process utilizing VAR, scale predictions automatically modulate the input, facilitating the alignment of representations at subsequent scales with the distribution of clean images. To harness VAR's adaptive distribution alignment capability in image restoration tasks, we formulate the multi-scale latent representations within VAR as the restoration prior, thus advancing our delicately designed VarFormer framework. The strategic application of these priors enables our VarFormer to achieve remarkable generalization on unseen tasks while also reducing training computational costs. Extensive experiments underscores that our VarFormer outperforms existing multi-task image restoration methods across various restoration tasks.
+</details>
+
+[![arXiv](https://img.shields.io/badge/arXiv-2412.21063-b31b1b.svg)](https://arxiv.org/pdf/2412.21063) [![WEB Page](https://img.shields.io/badge/Github-Page-159957.svg)](https://github.com/siywang541/Varformer)
+
+
 ## 3D Generation
 ### SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE
 **Authors**: Yongwei Chen, Yushi Lan, Shangchen Zhou, Tengfei Wang, Xingang Pan
