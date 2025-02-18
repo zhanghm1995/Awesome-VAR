@@ -11,6 +11,14 @@ A curated list of papers and resources focused on **Visual AutoRegressive Modeli
 <br>
 
 ## 2D Generation
+### VARGPT: Unified Understanding and Generation in a Visual Autoregressive Multimodal Large Language Model
+**Authors**: Xianwei Zhuang, Yuxin Xie, Yufan Deng, Liming Liang, Jinghan Ru, Yuguo Yin, Yuexian Zou
+<details span>
+<summary><b>Abstract</b></summary>
+We present VARGPT, a novel multimodal large language model (MLLM) that unifies visual understanding and generation within a single autoregressive framework. VARGPT employs a next-token prediction paradigm for visual understanding and a next-scale prediction paradigm for visual autoregressive generation. VARGPT innovatively extends the LLaVA architecture, achieving efficient scale-wise autoregressive visual generation within MLLMs while seamlessly accommodating mixed-modal input and output within a single model framework. Our VARGPT undergoes a three-stage unified training process on specially curated datasets, comprising a pre-training phase and two mixed visual instruction-tuning phases. The unified training strategy are designed to achieve alignment between visual and textual features, enhance instruction following for both understanding and generation, and improve visual generation quality, respectively. Despite its LLAVA-based architecture for multimodel understanding, VARGPT significantly outperforms LLaVA-1.5 across various vision-centric benchmarks, such as visual question-answering and reasoning tasks. Notably, VARGPT naturally supports capabilities in autoregressive visual generation and instruction-to-image synthesis, showcasing its versatility in both visual understanding and generation tasks.
+</details>
+
+[![arXiv](https://img.shields.io/badge/arXiv-2501.12327-b31b1b.svg)](https://arxiv.org/pdf/2501.12327) [![WEB Page](https://img.shields.io/badge/Project-Page-159957.svg)](https://vargpt-1.github.io/) [![WEB Page](https://img.shields.io/badge/Github-Page-159957.svg)](https://github.com/VARGPT-family/VARGPT)
 
 ### FlowAR: Scale-wise Autoregressive Image Generation Meets Flow Matching
 **Authors**: Sucheng Ren, Qihang Yu, Ju He, Xiaohui Shen, Alan Yuille, Liang-Chieh Chen
