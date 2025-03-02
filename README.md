@@ -11,6 +11,15 @@ A curated list of papers and resources focused on **Visual AutoRegressive Modeli
 <br>
 
 ## 2D Generation
+### FlexVAR: Flexible Visual Autoregressive Modeling without Residual Prediction
+**Authors**: Siyu Jiao, Gengwei Zhang, Yinlong Qian, Jiancheng Huang, Yao Zhao, Humphrey Shi, Lin Ma, Yunchao Wei, Zequn Jie
+<details span>
+<summary><b>Abstract</b></summary>
+This work challenges the residual prediction paradigm in visual autoregressive modeling and presents FlexVAR, a new Flexible Visual AutoRegressive image generation paradigm. FlexVAR facilitates autoregressive learning with ground-truth prediction, enabling each step to independently produce plausible images. This simple, intuitive approach swiftly learns visual distributions and makes the generation process more flexible and adaptable. Trained solely on low-resolution images (≤ 256px), FlexVAR can: (1) Generate images of various resolutions and aspect ratios, even exceeding the resolution of the training images. (2) Support various image-to-image tasks, including image refinement, in/out-painting, and image expansion. (3) Adapt to various autoregressive steps, allowing for faster inference with fewer steps or enhancing image quality with more steps. Our 1.0B model outperforms its VAR counterpart on the ImageNet 256×256 benchmark. Moreover, when zero-shot transfer the image generation process with 13 steps, the performance further improves to 2.08 FID, outperforming state-of-the-art autoregressive models AiM/VAR by 0.25/0.28 FID and popular diffusion models LDM/DiT by 1.52/0.19 FID, respectively. When transferring our 1.0B model to the ImageNet 512×512 benchmark in a zero-shot manner, FlexVAR achieves competitive results compared to the VAR 2.3B model, which is a fully supervised model trained at 512×512 resolution.
+</details>
+
+[![arXiv](https://img.shields.io/badge/arXiv-2502.20313-b31b1b.svg)](https://arxiv.org/pdf/2502.20313) [![WEB Page](https://img.shields.io/badge/Github-Page-159957.svg)](https://github.com/jiaosiyu1999/FlexVAR)
+
 ### VARGPT: Unified Understanding and Generation in a Visual Autoregressive Multimodal Large Language Model
 **Authors**: Xianwei Zhuang, Yuxin Xie, Yufan Deng, Liming Liang, Jinghan Ru, Yuguo Yin, Yuexian Zou
 <details span>
